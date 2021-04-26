@@ -711,3 +711,4 @@ func (s *Service) FilterPaymentsByFn(filter func(payment types.Payment) bool, go
 
 	return ps, nil
 }
+
